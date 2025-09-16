@@ -4,7 +4,7 @@ terraform {
   backend "s3" {
     bucket         = "devops-accelerator-platform-tf-state"
     key            = "global/devops-accelerator/terraform.tfstate"
-    region         = "us-east-1"
+    region         = "ap-southeast-2"
     dynamodb_table = "devops-accelerator-tf-locker"
     encrypt        = true
   }
